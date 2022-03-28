@@ -1,0 +1,27 @@
+create database BaseDatos_RetoCarvajal;
+use BaseDatos_RetoCarvajal;
+
+INSERT INTO catalogo values(
+null, 5, 'Xbox series X', 3120000);
+INSERT INTO catalogo values(
+null, 2, 'PlayStation 5', 3320000);
+INSERT INTO catalogo values(
+null, 8, 'Televisor LG', 1400000);
+INSERT INTO catalogo values(
+null, 0, 'Televisor Samsung', 1800000);
+INSERT INTO catalogo values(
+null, 3, 'Computador Portatil', 3100000);
+INSERT INTO catalogo values(
+null, 2, 'PlayStation 4', 3320000);
+INSERT INTO catalogo values(
+null, 8, 'Televisor Sony', 1400000);
+INSERT INTO catalogo values(
+null, 0, 'Parlantes Samsung', 1800000);
+INSERT INTO catalogo values(
+null, 5, 'Xbox series s', 3120000);
+INSERT INTO catalogo values(
+null, 2, 'PlayStation 3', 3320000);
+INSERT INTO catalogo values(
+null, 8, 'Juego de mesa', 14000);
+INSERT INTO catalogo values(
+null, 0, 'Tablet Samsung', 1100000);

@@ -1,0 +1,21 @@
+<div class="container">
+  <h1>Catalogo de productos</h1>
+  <table datatable [dtOptions]="dtOptions" [dtTrigger]="dtTrigger" class="table table-light table-striped table-hover row-border hover">
+    <thead>
+    <tr>
+      <th>Id Producto</th>
+      <th>Nombre Producto</th>
+      <th>Precio</th>
+      <th>Cantidad</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let producto of productos" >
+      <td> {{producto.idProducto}} </td>
+      <td> {{producto.nombreProducto}} </td>
+      <td> {{producto.precio}} </td>
+      <td> {{producto.cantidad}} </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
